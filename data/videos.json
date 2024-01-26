@@ -1,0 +1,22 @@
+[
+    {
+        "image": "Adele.jpg",
+        "title": "Component 1",
+        "description": "This is the description 1",
+        "link": "https://www.target.com/"
+    },
+    {
+        "image": "Adele.jpg",
+        "title": "Component 2",
+        "description": "This is the description 2",
+        "link": "https://www.target.com/"
+    },
+    {
+        "image": "Adele.jpg",
+        "title": "Component 3",
+        "description": "This is the description 3",
+        "link": "https://www.target.com/"
+    }
+]
+
+

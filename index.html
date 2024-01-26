@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Component Example</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div style="text-align: center; margin-bottom: 20px;">
+            <input type="text" 
+                   id="search-bar" 
+                   placeholder="Search videos...">
+        </div>
+
+        <div id="no-results"></div>
+
+        <div id="side-menu" class="side-menu"></div>
+
+        <h1 id="width" style="text-align: center; color: red"></h1>
+        <div id="video-card-container">
+            <template id="video-card-template"></template>
+        </div>
+
+    
+
+        <script src="js/VideoCard.js"></script>
+        <script src="js/main.js"></script>
+        <!-- <script src="js/changeDataByHash.js"></script> -->
+    </body>
+</html>
+
+

@@ -1,0 +1,44 @@
+<template id="video-card-template">
+    <a id="video-link" href="" style="text-decoration: none; color: inherit;">
+        <div class="video-card">
+            <img id="pic" src="" alt="">
+            <h2 id="title"></h2>
+            <p id="description"></p>
+        </div>
+    </a>
+</template>
+
+<style>
+.video-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 450px;
+    text-align: left;
+}
+
+.video-card:hover {
+    border: 1px solid teal;
+    background-color: #EFEFEF;
+}
+
+#pic {
+    width: 450px;
+    height: 180px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+}
+
+#title {
+    color: teal;
+    text-align: left;
+}
+
+#description {
+    color: teal;
+    text-align: left;
+}
+
+</style>
