@@ -1,3 +1,8 @@
+
+#myHeader {
+    display: None;
+}
+
 #search-bar {
     width: 80%;
     max-width: 500px;
@@ -60,6 +65,14 @@
 } */
 
 @media (max-width: 984px) {
+    #myHeader {
+        display: block;
+        background-color: teal;
+        color: white;
+        padding: 7px;
+        text-align: center;
+    }
+
     .side-menu {
         display: none;
     }
