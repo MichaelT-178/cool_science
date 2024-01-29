@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const loadJsonDataBasedOnHash = () => {
-        let hash = window.location.hash.slice(1); // Remove #
+        let hash = window.location.hash.slice(1); // Remove # character
         
         if (hash.endsWith('/')) {
             hash = hash.slice(0, -1);
