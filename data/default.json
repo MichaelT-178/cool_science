@@ -2,19 +2,19 @@
     {
         "image": "default.jpg",
         "title": "Card 1",
-        "description": "This is the description 1",
+        "description": "This is description 1",
         "link": "https://example.com/"
     },
     {
         "image": "default.jpg",
         "title": "Card 2",
-        "description": "This is the description 2",
+        "description": "This is description 2",
         "link": "https://example.com/"
     },
     {
         "image": "default.jpg",
         "title": "Card 3",
-        "description": "This is the description 3",
+        "description": "This is description 3",
         "link": "https://example.com/"
     }
 ]
