@@ -47,7 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const loadJsonDataBasedOnHash = () => {
-        const hash = window.location.hash.slice(1); // Remove #
+        let hash = window.location.hash.slice(1); // Remove #
+        
+        if (hash.endsWith('/')) {
+            hash = hash.slice(0, -1);
+        }
 
         // Load certain JSON file based on the hash
         fetch(`../data/${hash || 'default'}.json`)
