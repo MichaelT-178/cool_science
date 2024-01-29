@@ -1,21 +1,21 @@
 [
     {
-        "image": "Adele.jpg",
-        "title": "Component 1",
+        "image": "default.jpg",
+        "title": "Card 1",
         "description": "This is the description 1",
-        "link": "https://www.target.com/"
+        "link": "https://example.com/"
     },
     {
-        "image": "Adele.jpg",
-        "title": "Component 2",
+        "image": "default.jpg",
+        "title": "Card 2",
         "description": "This is the description 2",
-        "link": "https://www.target.com/"
+        "link": "https://example.com/"
     },
     {
-        "image": "Adele.jpg",
-        "title": "Component 3",
+        "image": "default.jpg",
+        "title": "Card 3",
         "description": "This is the description 3",
-        "link": "https://www.target.com/"
+        "link": "https://example.com/"
     }
 ]
 
