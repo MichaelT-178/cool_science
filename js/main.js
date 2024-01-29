@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         noResultsText.innerText = (container.innerHTML === "")
                                   ? `No results for: "${filterText}"`
-                                  : ""
+                                  : "";
     };
 
     const loadJsonDataBasedOnHash = () => {

@@ -1,6 +1,6 @@
 class VideoCard {
     constructor(image, title, description, link) {
-        this.image = `../pics/${image}`
+        this.image = `../pics/${image}`;
         this.title = title;
         this.description = description;
         this.link = link
@@ -9,7 +9,7 @@ class VideoCard {
     render(container) {
         const template = document.querySelector("#video-card-template").content.cloneNode(true);
 
-        const videoLink = template.querySelector("#video-link")
+        const videoLink = template.querySelector("#video-link");
         videoLink.href = this.link;
 
         template.querySelector('#pic').src = this.image;
